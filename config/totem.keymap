@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans  &trans     &kp BSLH           &kp FSLH   &kp MINUS         &kp AT        &kp PERCENT  &kp AMPERSAND  &kp EXCLAMATION  &trans
-        &trans  &kp TILDE  &kp DOUBLE_QUOTES  &kp SEMI   &kp POUND         &kp QUESTION  &kp EQUAL    &kp PERIOD     &kp COMMA        &trans
-&trans  &trans  &trans     &kp APOS           &kp COLON  &kp UNDERSCORE    &trans        &kp DOLLAR   &kp CARET      &kp PIPE         &trans  &trans
-                           &trans             &trans     &trans            &mo ADJ       &trans       &trans
+        &trans  &trans     &kp BSLH  &kp FSLH   &kp MINUS         &kp DOUBLE_QUOTES  &kp PERCENT  &kp AMPERSAND  &kp EXCLAMATION  &trans
+        &trans  &kp PIPE   &kp AT    &kp SEMI   &kp POUND         &kp QUESTION       &kp EQUAL    &kp PERIOD     &kp COMMA        &trans
+&trans  &trans  &kp TILDE  &kp APOS  &kp COLON  &kp UNDERSCORE    &trans             &kp DOLLAR   &kp CARET      &kp LS(NUBS)     &trans  &trans
+                           &trans    &trans     &trans            &mo ADJ            &trans       &trans
             >;
         };
 
